@@ -184,10 +184,10 @@ plt.title("Testing Data: Actual vs Predicted")
 
 ## Results
 
-- **Training Data R² Score**: `XX.XXX`
-- **Testing Data R² Score**: `XX.XXX`
-- **Training Data RMSE**: `XX.XXX`
-- **Testing Data RMSE**: `XX.XXX`
+- **Training Data R² Score**: `0.927`
+- **Testing Data R² Score**: `0.923`
+- **Training Data RMSE**: `3.374`
+- **Testing Data RMSE**: `3.915`
 
 
 ---
