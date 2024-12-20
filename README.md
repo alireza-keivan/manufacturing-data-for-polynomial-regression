@@ -96,6 +96,7 @@ for column in data.columns:
     sns.histplot(data[column], kde=True, color='blue', bins=20)
     plt.title(f"Distribution of {column}")
 ```
+![image](https://github.com/alireza-keivan/manufacturing-data-for-polynomial-regression/blob/main/src/features.png)
 - Histograms with KDE overlays are used to visualize the distribution of each feature.
 - This helps identify patterns, skewness, or outliers in the data.
 
@@ -105,6 +106,7 @@ for column in data.columns:
     sns.scatterplot(x=data[column], y=data['Quality Rating'], color='green')
     plt.title(f"{column} vs Quality Rating")
 ```
+![image](https://github.com/alireza-keivan/manufacturing-data-for-polynomial-regression/blob/main/src/features%202.png)
 - Scatter plots are used to visualize relationships between each feature and the target variable (`Quality Rating`).
 
 #### Boxplot for Outlier Detection
@@ -112,7 +114,7 @@ for column in data.columns:
 data.boxplot(patch_artist=True, boxprops=dict(facecolor='lightblue'))
 ```
 - Boxplots help identify potential outliers in the dataset.
-
+![image](https://github.com/alireza-keivan/manufacturing-data-for-polynomial-regression/blob/main/src/boxplot.png)
 ---
 
 ### 4. Data Preprocessing
@@ -179,7 +181,7 @@ sns.scatterplot(x=y_test, y=y_test_pred, color='orange')
 plt.title("Testing Data: Actual vs Predicted")
 ```
 - Scatter plots compare the actual and predicted values to assess the model's accuracy.
-
+![image](https://github.com/alireza-keivan/manufacturing-data-for-polynomial-regression/blob/main/src/scatter%201.png)
 ---
 
 ## Results
